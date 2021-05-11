@@ -1,0 +1,124 @@
+$ make
+[ 10%] Building CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o
+[ 20%] Building CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
+[ 30%] Building CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
+[ 40%] Building CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
+[ 50%] Building CXX object CMakeFiles/spdlog.dir/src/async.cpp.o
+[ 60%] Building CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o
+[ 70%] Building CXX object CMakeFiles/spdlog.dir/src/fmt.cpp.o
+[ 80%] Linking CXX static library libspdlog.a
+[ 80%] Built target spdlog
+[ 90%] Building CXX object example/CMakeFiles/example.dir/example.cpp.o
+[100%] Linking CXX executable example
+[100%] Built target example
+$ make install
+Consolidate compiler generated dependencies of target spdlog
+[ 80%] Built target spdlog
+Consolidate compiler generated dependencies of target example
+[100%] Built target example
+Install the project...
+-- Install configuration: "Release"
+-- Installing: ~/Desktop/include
+-- Installing: ~/Desktop/include/spdlog
+-- Installing: ~/Desktop/include/spdlog/async_logger.h
+-- Installing: ~/Desktop/include/spdlog/pattern_formatter.h
+-- Installing: ~/Desktop/include/spdlog/logger-inl.h
+-- Installing: ~/Desktop/include/spdlog/cfg
+-- Installing: ~/Desktop/include/spdlog/cfg/helpers.h
+-- Installing: ~/Desktop/include/spdlog/cfg/helpers-inl.h
+-- Installing: ~/Desktop/include/spdlog/cfg/env.h
+-- Installing: ~/Desktop/include/spdlog/cfg/argv.h
+-- Installing: ~/Desktop/include/spdlog/logger.h
+-- Installing: ~/Desktop/include/spdlog/sinks
+-- Installing: ~/Desktop/include/spdlog/sinks/win_eventlog_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/ansicolor_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/stdout_color_sinks-inl.h
+-- Installing: ~/Desktop/include/spdlog/sinks/wincolor_sink-inl.h
+-- Installing: ~/Desktop/include/spdlog/sinks/ansicolor_sink-inl.h
+-- Installing: ~/Desktop/include/spdlog/sinks/stdout_color_sinks.h
+-- Installing: ~/Desktop/include/spdlog/sinks/android_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/syslog_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/basic_file_sink-inl.h
+-- Installing: ~/Desktop/include/spdlog/sinks/rotating_file_sink-inl.h
+-- Installing: ~/Desktop/include/spdlog/sinks/hourly_file_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/wincolor_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/msvc_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/tcp_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/stdout_sinks-inl.h
+-- Installing: ~/Desktop/include/spdlog/sinks/sink-inl.h
+-- Installing: ~/Desktop/include/spdlog/sinks/ostream_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/basic_file_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/ringbuffer_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/base_sink-inl.h
+-- Installing: ~/Desktop/include/spdlog/sinks/null_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/systemd_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/base_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/stdout_sinks.h
+-- Installing: ~/Desktop/include/spdlog/sinks/dup_filter_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/rotating_file_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/dist_sink.h
+-- Installing: ~/Desktop/include/spdlog/sinks/daily_file_sink.h
+-- Installing: ~/Desktop/include/spdlog/stopwatch.h
+-- Installing: ~/Desktop/include/spdlog/common-inl.h
+-- Installing: ~/Desktop/include/spdlog/async_logger-inl.h
+-- Installing: ~/Desktop/include/spdlog/fmt
+-- Installing: ~/Desktop/include/spdlog/fmt/ostr.h
+-- Installing: ~/Desktop/include/spdlog/fmt/fmt.h
+-- Installing: ~/Desktop/include/spdlog/fmt/chrono.h
+-- Installing: ~/Desktop/include/spdlog/fmt/bin_to_hex.h
+-- Installing: ~/Desktop/include/spdlog/pattern_formatter-inl.h
+-- Installing: ~/Desktop/include/spdlog/spdlog.h
+-- Installing: ~/Desktop/include/spdlog/spdlog-inl.h
+-- Installing: ~/Desktop/include/spdlog/details
+-- Installing: ~/Desktop/include/spdlog/details/periodic_worker.h
+-- Installing: ~/Desktop/include/spdlog/details/backtracer-inl.h
+-- Installing: ~/Desktop/include/spdlog/details/backtracer.h
+-- Installing: ~/Desktop/include/spdlog/details/registry.h
+-- Installing: ~/Desktop/include/spdlog/details/periodic_worker-inl.h
+-- Installing: ~/Desktop/include/spdlog/details/fmt_helper.h
+-- Installing: ~/Desktop/include/spdlog/details/tcp_client.h
+-- Installing: ~/Desktop/include/spdlog/details/tcp_client-windows.h
+-- Installing: ~/Desktop/include/spdlog/details/console_globals.h
+-- Installing: ~/Desktop/include/spdlog/details/windows_include.h
+-- Installing: ~/Desktop/include/spdlog/details/log_msg.h
+-- Installing: ~/Desktop/include/spdlog/details/log_msg_buffer-inl.h
+-- Installing: ~/Desktop/include/spdlog/details/os.h
+-- Installing: ~/Desktop/include/spdlog/details/thread_pool.h
+-- Installing: ~/Desktop/include/spdlog/details/log_msg-inl.h
+-- Installing: ~/Desktop/include/spdlog/details/thread_pool-inl.h
+-- Installing: ~/Desktop/include/spdlog/details/circular_q.h
+-- Installing: ~/Desktop/include/spdlog/details/registry-inl.h
+-- Installing: ~/Desktop/include/spdlog/details/synchronous_factory.h
+-- Installing: ~/Desktop/include/spdlog/details/file_helper.h
+-- Installing: ~/Desktop/include/spdlog/details/mpmc_blocking_q.h
+-- Installing: ~/Desktop/include/spdlog/details/log_msg_buffer.h
+-- Installing: ~/Desktop/include/spdlog/details/null_mutex.h
+-- Installing: ~/Desktop/include/spdlog/details/os-inl.h
+-- Installing: ~/Desktop/include/spdlog/details/file_helper-inl.h
+-- Installing: ~/Desktop/include/spdlog/formatter.h
+-- Installing: ~/Desktop/include/spdlog/async.h
+-- Installing: ~/Desktop/include/spdlog/version.h
+-- Installing: ~/Desktop/include/spdlog/tweakme.h
+-- Installing: ~/Desktop/include/spdlog/fwd.h
+-- Installing: ~/Desktop/include/spdlog/common.h
+-- Installing: ~/Desktop/lib/libspdlog.a
+-- Installing: ~/Desktop/include/spdlog/fmt/bundled/
+-- Installing: ~/Desktop/include/spdlog/fmt/bundled//ostream.h
+-- Installing: ~/Desktop/include/spdlog/fmt/bundled//compile.h
+-- Installing: ~/Desktop/include/spdlog/fmt/bundled//printf.h
+-- Installing: ~/Desktop/include/spdlog/fmt/bundled//format.h
+-- Installing: ~/Desktop/include/spdlog/fmt/bundled//color.h
+-- Installing: ~/Desktop/include/spdlog/fmt/bundled//LICENSE.rst
+-- Installing: ~/Desktop/include/spdlog/fmt/bundled//os.h
+-- Installing: ~/Desktop/include/spdlog/fmt/bundled//posix.h
+-- Installing: ~/Desktop/include/spdlog/fmt/bundled//core.h
+-- Installing: ~/Desktop/include/spdlog/fmt/bundled//chrono.h
+-- Installing: ~/Desktop/include/spdlog/fmt/bundled//locale.h
+-- Installing: ~/Desktop/include/spdlog/fmt/bundled//ranges.h
+-- Installing: ~/Desktop/include/spdlog/fmt/bundled//format-inl.h
+-- Installing: ~/Desktop/lib/pkgconfig/spdlog.pc
+-- Installing: ~/Desktop/lib/cmake/spdlog/spdlogConfigTargets.cmake
+-- Installing: ~/Desktop/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+-- Installing: ~/Desktop/lib/cmake/spdlog/spdlogConfig.cmake
+-- Installing: ~/Desktop/lib/cmake/spdlog/spdlogConfigVersion.cmake
